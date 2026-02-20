@@ -1,0 +1,50 @@
+{
+  "slide-01": {
+    "duration": 3,
+    "url": ""
+  },
+  "slide-02": {
+    "duration": 8.046,
+    "url": "/audio/vera/slide-02.mp3"
+  },
+  "slide-03": {
+    "duration": 5.407,
+    "url": "/audio/vera/slide-03.mp3"
+  },
+  "slide-04": {
+    "duration": 5.46,
+    "url": "/audio/vera/slide-04.mp3"
+  },
+  "slide-05": {
+    "duration": 5.956,
+    "url": "/audio/vera/slide-05.mp3"
+  },
+  "slide-06": {
+    "duration": 6.531,
+    "url": "/audio/vera/slide-06.mp3"
+  },
+  "slide-07": {
+    "duration": 6.139,
+    "url": "/audio/vera/slide-07.mp3"
+  },
+  "slide-08": {
+    "duration": 7.131,
+    "url": "/audio/vera/slide-08.mp3"
+  },
+  "slide-09": {
+    "duration": 6.557,
+    "url": "/audio/vera/slide-09.mp3"
+  },
+  "slide-10": {
+    "duration": 13.427,
+    "url": "/audio/vera/slide-10.mp3"
+  },
+  "slide-11": {
+    "duration": 6.792,
+    "url": "/audio/vera/slide-11.mp3"
+  },
+  "slide-12": {
+    "duration": 5.486,
+    "url": "/audio/vera/slide-12.mp3"
+  }
+}

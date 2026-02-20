@@ -1,0 +1,89 @@
+Bundling 6%
+Bundling 18%
+Bundling 63%
+Bundling 69%
+Bundling 74%
+Bundling 80%
+Bundling 85%
+Bundling 90%
+Bundling 95%
+Bundling 100%
+Getting composition
+[Tab 0, node_modules/@remotion/google-fonts/dist/esm/Poppins.mjs:95] Made 27 network requests to load fonts for Poppins. Consider loading fewer weights and subsets by passing options to loadFont(). Disable this warning by passing "ignoreTooManyRequestsWarning: true" to "options".
+[Tab 0, node_modules/@remotion/google-fonts/dist/esm/Poppins.mjs:95] Made 54 network requests to load fonts for Poppins. Consider loading fewer weights and subsets by passing options to loadFont(). Disable this warning by passing "ignoreTooManyRequestsWarning: true" to "options".
+
+An error occurred:
+ Error  Composition id can only contain a-z, A-Z, 0-9, CJK characters and -. You passed GLC_Showcase
+
+at node_modules/remotion/dist/esm/index.mjs:4983
+4981 │ var isCompositionIdValid = (id) => id.match(getRegex2());
+4982 │ var validateCompositionId = (id) => {
+4983 │   if (!isCompositionIdValid(id)) {
+4984 │     throw new Error(`Composition id can only contain a-z, A-Z, 0-9, CJK characters and -. You passed ${id}`);
+4985 │   }
+4986 │ };
+
+at (node_modules/remotion/dist/esm/index.mjs:5047)
+at commitHookEffectListMount (node_modules/react-dom/cjs/react-dom-client.production.js:8582)
+at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom-client.production.js:10125)
+at recursivelyTraversePassiveMountEffects (node_modules/react-dom/cjs/react-dom-client.production.js:10100)
+at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom-client.production.js:10119)
+at recursivelyTraversePassiveMountEffects (node_modules/react-dom/cjs/react-dom-client.production.js:10100)
+at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom-client.production.js:10119)
+at recursivelyTraversePassiveMountEffects (node_modules/react-dom/cjs/react-dom-client.production.js:10100)
+at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom-client.production.js:10240)
+at recursivelyTraversePassiveMountEffects (node_modules/react-dom/cjs/react-dom-client.production.js:10100)
+at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom-client.production.js:10119)
+at recursivelyTraversePassiveMountEffects (node_modules/react-dom/cjs/react-dom-client.production.js:10100)
+at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom-client.production.js:10240)
+at recursivelyTraversePassiveMountEffects (node_modules/react-dom/cjs/react-dom-client.production.js:10100)
+at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom-client.production.js:10119)
+at recursivelyTraversePassiveMountEffects (node_modules/react-dom/cjs/react-dom-client.production.js:10100)
+at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom-client.production.js:10240)
+at recursivelyTraversePassiveMountEffects (node_modules/react-dom/cjs/react-dom-client.production.js:10100)
+at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom-client.production.js:10119)
+at recursivelyTraversePassiveMountEffects (node_modules/react-dom/cjs/react-dom-client.production.js:10100)
+at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom-client.production.js:10240)
+at recursivelyTraversePassiveMountEffects (node_modules/react-dom/cjs/react-dom-client.production.js:10100)
+at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom-client.production.js:10119)
+at recursivelyTraversePassiveMountEffects (node_modules/react-dom/cjs/react-dom-client.production.js:10100)
+at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom-client.production.js:10240)
+at recursivelyTraversePassiveMountEffects (node_modules/react-dom/cjs/react-dom-client.production.js:10100)
+at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom-client.production.js:10240)
+at recursivelyTraversePassiveMountEffects (node_modules/react-dom/cjs/react-dom-client.production.js:10100)
+at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom-client.production.js:10119)
+at recursivelyTraversePassiveMountEffects (node_modules/react-dom/cjs/react-dom-client.production.js:10100)
+at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom-client.production.js:10240)
+at recursivelyTraversePassiveMountEffects (node_modules/react-dom/cjs/react-dom-client.production.js:10100)
+at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom-client.production.js:10119)
+at recursivelyTraversePassiveMountEffects (node_modules/react-dom/cjs/react-dom-client.production.js:10100)
+at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom-client.production.js:10240)
+at recursivelyTraversePassiveMountEffects (node_modules/react-dom/cjs/react-dom-client.production.js:10100)
+at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom-client.production.js:10119)
+at recursivelyTraversePassiveMountEffects (node_modules/react-dom/cjs/react-dom-client.production.js:10100)
+at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom-client.production.js:10240)
+at recursivelyTraversePassiveMountEffects (node_modules/react-dom/cjs/react-dom-client.production.js:10100)
+at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom-client.production.js:10119)
+at recursivelyTraversePassiveMountEffects (node_modules/react-dom/cjs/react-dom-client.production.js:10100)
+at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom-client.production.js:10240)
+at recursivelyTraversePassiveMountEffects (node_modules/react-dom/cjs/react-dom-client.production.js:10100)
+at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom-client.production.js:10240)
+at recursivelyTraversePassiveMountEffects (node_modules/react-dom/cjs/react-dom-client.production.js:10100)
+at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom-client.production.js:10119)
+at recursivelyTraversePassiveMountEffects (node_modules/react-dom/cjs/react-dom-client.production.js:10100)
+at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom-client.production.js:10240)
+at recursivelyTraversePassiveMountEffects (node_modules/react-dom/cjs/react-dom-client.production.js:10100)
+at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom-client.production.js:10240)
+at recursivelyTraversePassiveMountEffects (node_modules/react-dom/cjs/react-dom-client.production.js:10100)
+at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom-client.production.js:10119)
+at recursivelyTraversePassiveMountEffects (node_modules/react-dom/cjs/react-dom-client.production.js:10100)
+at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom-client.production.js:10240)
+at recursivelyTraversePassiveMountEffects (node_modules/react-dom/cjs/react-dom-client.production.js:10100)
+at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom-client.production.js:10240)
+at recursivelyTraversePassiveMountEffects (node_modules/react-dom/cjs/react-dom-client.production.js:10100)
+at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom-client.production.js:10119)
+at recursivelyTraversePassiveMountEffects (node_modules/react-dom/cjs/react-dom-client.production.js:10100)
+at commitPassiveMountOnFiber (node_modules/react-dom/cjs/react-dom-client.production.js:10136)
+at flushPassiveEffects (node_modules/react-dom/cjs/react-dom-client.production.js:11762)
+at (node_modules/react-dom/cjs/react-dom-client.production.js:11497)
+at performWorkUntilDeadline (node_modules/scheduler/cjs/scheduler.production.js:150)
