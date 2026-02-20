@@ -33,21 +33,31 @@ export const getDurationInFrames = (seconds: number) => {
     return Math.ceil(seconds * FPS);
 };
 
+// Each TransitionSeries transition overlaps scenes by this many frames
+export const TRANSITION_FRAMES = 20;
+
 // Calculate total composition duration
+// VeraBeautyShowcase: Frame01(90) + 11 audio slides = 12 sequences, 11 transitions between them
 export const getTotalDurationInFrames = () => {
     let totalSeconds = 0;
+    let slideCount = 0;
     try {
         Object.values(AUDIO_DATA).forEach((entry) => {
             if (entry && typeof entry.duration === 'number') {
                 totalSeconds += entry.duration;
+                slideCount++;
             }
         });
     } catch (e) {
         console.error("Error calculating total duration:", e);
     }
 
-    const frames = getDurationInFrames(totalSeconds);
-    return frames > 0 ? frames : 900; // Fallback to 30 seconds if calculation fails
+    // +1 for the brand open (90 frames), then subtract all transition overlaps
+    // Total sequences = slideCount + 1 (frame01), transitions = slideCount
+    const rawFrames = getDurationInFrames(totalSeconds) + 90;
+    const transitionOverlap = slideCount * TRANSITION_FRAMES;
+    const frames = rawFrames - transitionOverlap;
+    return frames > 0 ? frames : 900;
 };
 
 // calculate start frames for each slide
